@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IOTHouse2.0</string>
+
+    <string name="slide_1_title">Maison connectée</string>
+    <string name="slide_1_desc">Découvrez , consultez et contrôler votre maison</string>
+
+    <string name="slide_2_title"> Capteurs </string>
+    <string name="slide_2_desc">Vous pouvez connaître les grandeurs physiques de votre maison  </string>
+
+    <string name="slide_3_title">Actionneurs</string>
+    <string name="slide_3_desc">Découvrez , consultez et contrôler votre maison à travers les actionneurs </string>
+    <string name="my_preference">"com.abc.com.MyPref"</string>
+    <string name="my_preference_key">"com.abc.com.MyPrefKey"</string>
+  </resources>

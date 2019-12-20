@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:theme="@style/itemTheme">
+
+    <item
+        android:icon="@drawable/ic_keyboard_arrow_left_black_24dp"
+        android:title="Plus d'informations"
+        android:id="@+id/retour"
+        app:showAsAction="always"
+        android:orderInCategory="100"/>
+        <item
+            android:id="@+id/profil"
+            android:orderInCategory="100"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Profil"/>
+
+    <item
+        android:id="@+id/update"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_settings_backup_restore_black_24dp"
+        android:title="Actualiser"/>
+
+    <item
+        android:id="@+id/addUSer"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_group_add_black_24dp"
+        android:title="Ajouter hôte"/>
+
+    <item
+        android:id="@+id/Disconnect"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Déconnecter"/>
+</menu>
